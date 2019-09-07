@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+
+</head>
+
+
+<body>
+<header>
+    <div class="container">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <ul class="nav navbar-nav navbar-right top-nav">
+                <li><a href="#">Customer Care</a></li>
+                <li><a href="#">Track My Order</a></li>
+                <li><a href="#" data-toggle="modal" data-target="#signup">Login</a></li>
+                <li><a href="#" data-toggle="modal" data-target="#signup">Sign Up</a></li>
+            </ul>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-8 logo">
+            <a href="index.html"><img src="img/logo_1.png" alt="" class="img-responsive"></a>
+        </div>
+        <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 nav1">
+            <form>
+                <div class="form-group col-lg-9 col-md-9 col-sm-8 col-xs-12">
+                    <input type="text" class="form-control" placeholder="Search">
+                    <button type="submit" class="btn btn-default"><img src="img/search.png" class="img-responsive" </button>
+                </div>
+            </form>
+            <ul class="nav navbar-nav navbar-right ico col-lg-2 col-md-3 col-sm-4 col-xs-1">
+                <li class="acc"><a href="#" data-toggle="modal" data-target="#signup"><img src="img/acount.png" alt="" class="img-responsive" style="height: 32px"/></a></li>
+                <li class="shop"><a href="cart.html"><img src="img/shopping-cart.png" alt="" class="img-responsive" style="height: 32px"/></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="links">
+        <div class="container">
+            <nav class="navbar navbar-default">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1,#navbar-collapse-2,#navbar-collapse-3">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse navbar-left" id="navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Products <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">One more separated link</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Brands <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">One more separated link</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Deals <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">One more separated link</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Services <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">One more separated link</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+                <div class="collapse navbar-collapse navbar-right" id="navbar-collapse-2">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">Orders</a></li>
+                        <li><a href="#">Saved Items</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </nav>
+        </div>
+    </div>
+</header>
+
+<div class="modal fade" tabindex="-1" role="dialog" id="signup">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <div class="col-lg-12">
+                    <div class="col-lg-6">
+                        <h3 class="text-center">Login</h3>
+                    </div>
+                    <div class="col-lg-6">
+                        <h3 class="text-center">Sign Up</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="container-fluid">
+                        <div class="col-lg-6 login">
+                            <form>
+                                <div class="user-box col-lg-12 form-group">
+                                    <label for="username">Username or Email*</label>
+                                    <input type="text" id="username" class="form-control"/>
+                                </div>
+                                <div class="pass-box col-lg-12 form-group">
+                                    <label for="password">Password*</label>
+                                    <input type="text" id="password" class="form-control"/>
+                                </div>
+                                <div class="col-lg-6 form-group">
+                                    <a href="#" type="button">Forgot Password?</a>
+                                </div>
+                                <div class="col-lg-6 form-group text-right">
+                                    <input type="checkbox" class="checkbox-inline remember" id="remember"/>
+                                    <label for="remember">Remember Me</label>
+                                </div>
+                                <div class="col-lg-12 form-group">
+                                    <a class="btn btn-review btn-block" type="button" href="cart.html">Login</a>
+                                </div>
+                                <div class="col-lg-12 btn-social">
+                                    <button class="btn btn-review fb btn-block" type="button"><i class="fa-facebook-f fab"></i> Login In with Facebook</button>
+                                    <button class="btn btn-review google btn-block" type="button"><i class="fa-google-plus-g fab"></i> Login In with Google</button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-lg-6 signup">
+                            <form>
+                                <div class="user-box">
+                                    <div class="col-lg-6 form-group">
+                                        <label for="fname">First Name*</label>
+                                        <input type="text" id="fname" class="form-control"/>
+                                    </div>
+                                    <div class="col-lg-6 form-group">
+                                        <label for="lname">Last Name*</label>
+                                        <input type="text" id="lname" class="form-control"/>
+                                    </div>
+                                </div>
+                                <div class="user-box col-lg-12 form-group">
+                                    <label for="email">Email*</label>
+                                    <input type="text" id="email" class="form-control"/>
+                                </div>
+                                <div class="pass-box col-lg-12 form-group">
+                                    <label for="password">New Password*</label>
+                                    <input type="text" id="password" class="form-control"/>
+                                </div>
+                                <div class="pass-box col-lg-12 form-group">
+                                    <label for="cpassword">Confirm Password*</label>
+                                    <input type="text" id="cpassword" class="form-control"/>
+                                </div>
+                                <div class="col-lg-12">
+                                    <a class="btn btn-review btn-block" type="button" href="cart.html">Sign Up</a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <p>*Required fields</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+    <div class="row checkout-head">
+        <h3>Checkout</h3>
+    </div>
+    <section class="checkout col-lg-9">
+        <div class="col-lg-12 payment">
+            <div class="row">
+                <h4>Payment Options</h4>
+            </div>
+            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingOne">
+                        <h5 class="panel-title">
+                            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <span><i class="fa-dollar-sign fa"></i></span>Cash On Delivery
+                            </a>
+                        </h5>
+                    </div>
+                    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                        <div class="panel-body">
+                            You're pretty much done here.<br/>Just pay the total amount to the delivery guy when you receive your package.
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingTwo">
+                        <h5 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <span><i class="fa fa-credit-card"></i></span>Credit Card
+                            </a>
+                        </h5>
+                    </div>
+                    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                        <div class="panel-body">
+                            <h5>Card Information</h5>
+                            <p>We accept the following cards.</p>
+                            <div class="row">
+                                <div class="col-lg-3">
+
+                                </div>
+                            </div>
+                            <form class="c-card">
+                                <div class="row">
+                                    <div class="col-lg-6 form-group">
+                                        <label for="card-no">Card Number</label>
+                                        <input type="text" id="card-no" class="form-control"/>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-3 form-group">
+                                        <label for="expiry-month">Expiry Month</label>
+                                        <input type="text" id="expiry-month" class="form-control"/>
+                                    </div>
+                                    <div class="col-lg-3 form-group">
+                                        <label for="expiry-year">Expiry Year</label>
+                                        <input type="text" id="expiry-year" class="form-control"/>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-3 form-group">
+                                        <label for="cvv">CVV</label>
+                                        <input type="text" id="cvv" class="form-control"/>
+                                    </div>
+                                    <div class="col-lg-3 form-group">
+                                        <span>This 3 or 4 digit code is on the back or front of your card.</span>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingThree">
+                        <h5 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                <span><i class="fa-paypal fab"></i></span>PayPal
+                            </a>
+                        </h5>
+                    </div>
+                    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                        <div class="panel-body">
+                            <p>Select "Pay with PayPal" to enter your payment details on the PayPal site.</p>
+                            <a href="#" type="button" class="btn btn-review btn-block btn-paypal">Pay with <i class="fab fa-paypal"></i> PayPal</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="order-summary col-lg-3">
+        <div class="order">
+            <h4>Order Summary</h4>
+            <div class="table-summary">
+                <table class="table table-responsive">
+                    <tbody>
+                    <tr>
+                        <td>Product Subtotal</td>
+                        <td class="text-right">$1149.98</td>
+                    </tr>
+                    <tr>
+                        <td>Shipping Fee</td>
+                        <td class="text-right">FREE</td>
+                    </tr>
+                    <tr>
+                        <td>Taxes & Charges</td>
+                        <td class="text-right">$49.99</td>
+                    </tr>
+                    <tr>
+                        <td>Discounts</td>
+                        <td class="text-right">$0.00</td>
+                    </tr>
+                    <tr class="total">
+                        <td>Total</td>
+                        <td class="text-right">$1199.97</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <a class="btn btn-block btn-review btn-checkout" data-toggle="modal" data-target="#thankyou">Confirm Order</a>
+        </div>
+    </section>
+</div>
+
+<div class="modal fade" tabindex="-1" role="dialog" id="thankyou">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="container-fluid">
+                        <div class="col-lg-12">
+                            <div class="col-lg-4">
+                                <img src="img/check-mark-thankyou.png" alt="" class="img-responsive"/>
+                            </div>
+                            <h3>Thank You for shopping with us!</h3>
+                            <p>Your order will be shipped to you within 3-4 working days.</p>
+                            <p>Your Order ID is PK1204AED45764</p>
+                            <p>You can track your order <a href="#" type="button">here</a>.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<footer>
+    <section class="features col-lg-12">
+        <div class="container">
+            <div class="col-lg-8 col-lg-offset-2">
+                <div class="col-lg-4 ship">
+                    <div class="col-lg-5 ship-img">
+                        <img src="img/shipping-fast.png" alt="" class="img-responsive"/>
+                    </div>
+                    <p>Free Delivery</p>
+                </div>
+                <div class="col-lg-4 price">
+                    <div class="col-lg-3 price-img">
+                        <img src="img/low-price.png" alt="" class="img-responsive"/>
+                    </div>
+                    <p>Lowest prices Guaranteed</p>
+                </div>
+                <div class="col-lg-4 support">
+                    <div class="col-lg-4 support-img">
+                        <img src="img/customer-service-icon-3.png" alt="" class="img-responsive"/>
+                    </div>
+                    <p>24/7 Customer Support</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="col-lg-12 panel-footer">
+        <div class="container">
+            <div class="col-lg-3 col-md-4 col-sm-5 col-xs-8">
+                <div class="row logo">
+                    <a href="index.html"><img src="img/logo_1.png" alt="" class="img-responsive"></a>
+                </div>
+                <div class="row">
+                    <p>Your one-stop solution for all your electronic needs!
+                        Be it laptops, mobiles, tablets, TV's, consoles; You name it, We have it!</p>
+                    <div class="row">
+                        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 social"><a href="#"><img src="img/fb1.png" class="img-responsive"></a></div>
+                        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 social"><a href="#"><img src="img/tw.png" class="img-responsive"></a></div>
+                    </div>
+                    <p class="copyright">© 2019 Copyright - All Rights Reserved</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-lg-offset-6 col-md-3 col-md-offset-5 col-sm-3 col-sm-offset-4 col-xs-4 text-right foot-nav">
+                <ul class="list-unstyled">
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Account</a></li>
+                    <li><a href="#">Customer Care</a></li>
+                    <li><a href="#">Track My Order</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+
+<script>
+    $(document).ready(function(){
+
+        $('#banner').owlCarousel({
+            loop:true,
+            nav:false,
+            dots: true,
+            autoplay:true,
+            autoplayTimeout:5000,
+            autoplayHoverPause:true,
+            lazyLoad:true,
+            animateOut: 'fadeOut',
+            autoHeight:true,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:1
+                },
+                1000:{
+                    items:1
+                }
+            }
+        });
+
+        $('#featured').owlCarousel({
+            loop:true,
+            nav: true,
+            dots: true,
+            center:true,
+            autoplay:true,
+            autoplayTimeout:10000,
+            autoplayHoverPause:true,
+            lazyLoad:true,
+            autoHeight: true,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:3
+                },
+                1000:{
+                    items:3
+                }
+            }
+        });
+
+        $('#most-view').owlCarousel({
+            loop:true,
+            nav: true,
+            dots: true,
+            autoplay:true,
+            autoplayTimeout:10000,
+            autoplayHoverPause:true,
+            lazyLoad:true,
+            autoHeight: true,
+            responsive:{
+                0:{
+                    items:2
+                },
+                600:{
+                    items:4
+                },
+                1000:{
+                    items:4
+                }
+            }
+        });
+
+        $('#best-sell').owlCarousel({
+            loop:true,
+            nav: true,
+            dots: true,
+            autoplay:true,
+            autoplayTimeout:10000,
+            autoplayHoverPause:true,
+            lazyLoad:true,
+            autoHeight: true,
+            responsive:{
+                0:{
+                    items:2
+                },
+                600:{
+                    items:4
+                },
+                1000:{
+                    items:4
+                }
+            }
+        });
+
+//    $('.alt-pics').owlCarousel({
+//        nav: true,
+//        lazyLoad:true,
+//        autoHeight: true,
+//        center:true,
+//        margin:5,
+//        responsive:{
+//            0:{
+//                items:7
+//            },
+//            600:{
+//                items:7
+//            },
+//            1000:{
+//                items:7
+//            }
+//        }
+//    });
+
+        $('#open-review-box').click(function(){
+            $('#review-box').slideDown(650);
+            $('#open-review-box').fadeOut(400);
+            $('#review-box').addClass('show-review');
+
+        });
+
+        $('#close-review-box').click(function(){
+            $('#review-box').slideUp(650);
+            $('#open-review-box').fadeIn(600);
+            $('#review-box').removeClass('show-review');
+        });
+
+        $('.btn-toggle').click(function(){
+            if($('.content').height() < 1001)
+            {
+                $('.content').removeClass('height-limit');
+                $('.btn-toggle>span').text('VIEW LESS');
+            } else {
+                $('.content').addClass('height-limit');
+                $('.btn-toggle>span').text('VIEW MORE');
+            }
+        });
+
+
+        /* 1. Visualizing things on Hover - See next part for action on click */
+        $('#stars li').on('mouseover', function(){
+            var onStar = parseInt($(this).data('value'), 10); // The star currently mouse on
+
+            // Now highlight all the stars that's not after the current hovered star
+            $(this).parent().children('li.star').each(function(e){
+                if (e < onStar) {
+                    $(this).addClass('hover');
+                }
+                else {
+                    $(this).removeClass('hover');
+                }
+            });
+
+        }).on('mouseout', function(){
+            $(this).parent().children('li.star').each(function(e){
+                $(this).removeClass('hover');
+            });
+        });
+
+
+        /* 2. Action to perform on click */
+        $('#stars li').on('click', function(){
+            var onStar = parseInt($(this).data('value'), 10); // The star currently selected
+            var stars = $(this).parent().children('li.star');
+
+            for (i = 0; i < stars.length; i++) {
+                $(stars[i]).removeClass('selected');
+            }
+
+            for (i = 0; i < onStar; i++) {
+                $(stars[i]).addClass('selected');
+            }
+
+        });
+
+        $('.count').prop('disabled', true);
+        $(document).on('click','.plus',function(){
+            $('.count').val(parseInt($('.count').val()) + 1 );
+        });
+        $(document).on('click','.minus',function(){
+            $('.count').val(parseInt($('.count').val()) - 1 );
+            if ($('.count').val() == 0) {
+                $('.count').val(1);
+            }
+        });
+    });
+
+
+</script>
+
+
+</html>

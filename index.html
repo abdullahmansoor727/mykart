@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+
+</head>
+
+
+<body>
+<header>
+    <div class="container">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <ul class="nav navbar-nav navbar-right top-nav">
+                <li><a href="#">Customer Care</a></li>
+                <li><a href="#">Track My Order</a></li>
+                <li><a href="#" data-toggle="modal" data-target="#signup">Login</a></li>
+                <li><a href="#" data-toggle="modal" data-target="#signup">Sign Up</a></li>
+            </ul>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-8 logo">
+            <a href="index.html"><img src="img/logo_1.png" alt="" class="img-responsive"></a>
+        </div>
+        <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 nav1">
+            <form>
+                <div class="form-group col-lg-9 col-md-9 col-sm-8 col-xs-12">
+                    <input type="text" class="form-control" placeholder="Search">
+                    <button type="submit" class="btn btn-default"><img src="img/search.png" class="img-responsive" </button>
+                </div>
+            </form>
+            <ul class="nav navbar-nav navbar-right ico col-lg-2 col-md-3 col-sm-4 col-xs-1">
+                <li class="acc"><a href="#" data-toggle="modal" data-target="#signup"><img src="img/acount.png" alt="" class="img-responsive" style="height: 32px"/></a></li>
+                <li class="shop"><a href="cart.html"><img src="img/shopping-cart.png" alt="" class="img-responsive" style="height: 32px"/></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="links">
+        <div class="container">
+            <nav class="navbar navbar-default">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1,#navbar-collapse-2,#navbar-collapse-3">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse navbar-left" id="navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Products <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">One more separated link</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Brands <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">One more separated link</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Deals <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">One more separated link</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Services <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">One more separated link</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+                <div class="collapse navbar-collapse navbar-right" id="navbar-collapse-2">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">Orders</a></li>
+                        <li><a href="#">Saved Items</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </nav>
+        </div>
+    </div>
+</header>
+
+<div class="modal fade" tabindex="-1" role="dialog" id="signup">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <div class="col-lg-12">
+                    <div class="col-lg-6">
+                        <h3 class="text-center">Login</h3>
+                    </div>
+                    <div class="col-lg-6">
+                        <h3 class="text-center">Sign Up</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="container-fluid">
+                        <div class="col-lg-6 login">
+                            <form>
+                                <div class="user-box col-lg-12 form-group">
+                                    <label for="username">Username or Email*</label>
+                                    <input type="text" id="username" class="form-control"/>
+                                </div>
+                                <div class="pass-box col-lg-12 form-group">
+                                    <label for="password">Password*</label>
+                                    <input type="text" id="password" class="form-control"/>
+                                </div>
+                                <div class="col-lg-6 form-group">
+                                    <a href="#" type="button">Forgot Password?</a>
+                                </div>
+                                <div class="col-lg-6 form-group text-right">
+                                    <input type="checkbox" class="checkbox-inline remember" id="remember"/>
+                                    <label for="remember">Remember Me</label>
+                                </div>
+                                <div class="col-lg-12 form-group">
+                                    <a class="btn btn-review btn-block" type="button" href="cart.html">Login</a>
+                                </div>
+                                <div class="col-lg-12 btn-social">
+                                    <button class="btn btn-review fb btn-block" type="button"><i class="fa-facebook-f fab"></i> Login In with Facebook</button>
+                                    <button class="btn btn-review google btn-block" type="button"><i class="fa-google-plus-g fab"></i> Login In with Google</button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-lg-6 signup">
+                            <form>
+                                <div class="user-box">
+                                    <div class="col-lg-6 form-group">
+                                        <label for="fname">First Name*</label>
+                                        <input type="text" id="fname" class="form-control"/>
+                                    </div>
+                                    <div class="col-lg-6 form-group">
+                                        <label for="lname">Last Name*</label>
+                                        <input type="text" id="lname" class="form-control"/>
+                                    </div>
+                                </div>
+                                <div class="user-box col-lg-12 form-group">
+                                    <label for="email">Email*</label>
+                                    <input type="text" id="email" class="form-control"/>
+                                </div>
+                                <div class="pass-box col-lg-12 form-group">
+                                    <label for="password">New Password*</label>
+                                    <input type="text" id="password" class="form-control"/>
+                                </div>
+                                <div class="pass-box col-lg-12 form-group">
+                                    <label for="cpassword">Confirm Password*</label>
+                                    <input type="text" id="cpassword" class="form-control"/>
+                                </div>
+                                <div class="col-lg-12">
+                                    <a class="btn btn-review btn-block" type="button" href="cart.html">Sign Up</a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <p>*Required fields</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div id="banner" class="owl-carousel owl-theme">
+    <div class="slide1">
+        <div class="col-lg-3 col-lg-offset-2 col-md-4 col-sm-5 col-xs-8 box">
+            <h1 class="col-lg-12 col-md-12 col-sm-12 col-xs-12">Flash<br><span>Sale</span></h1>
+            <p class="time col-lg-10 col-lg-offset-1 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2">48 hours Only</p>
+            <button class="btn btn-default">Shop Now</button>
+        </div>
+    </div>
+    <!--        <div class="slide2">-->
+    <!--            <div class="col-lg-3 col-lg-offset-2 col-md-4 col-sm-5 col-xs-8 box">-->
+    <!--                <h1 class="col-lg-12 col-md-12 col-sm-12 col-xs-12">Flash<br><span>Sale</span></h1>-->
+    <!--                <p class="time col-lg-10 col-lg-offset-1 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2">48 hours Only</p>-->
+    <!--                <button class="btn btn-default">Shop Now</button>-->
+    <!--            </div>-->
+    <!--        </div>-->
+    <div class="slide3">
+        <img src="img/banner2_bg.jpg" alt="" class="img-responsive"/>
+    </div>
+    <div class="slide4">
+        <img src="img/banner-iphone.jpg" alt="" class="img-responsive"/>
+    </div>
+    <!--        <img src="img/banner.jpg">-->
+    <!--        <img src="img/banner1.jpg">-->
+</div>
+
+<section class="brands col-lg-12">
+    <div class="container">
+        <div class="row">
+            <h3 class="heading">Top Brands</h3>
+        </div>
+        <div class="row">
+            <div class="col-lg-2 brand-box">
+                <!--            <div class="row">-->
+                <a href="#" type="button"><img src="img/brands/apple-logo.png" alt="" class="img-responsive"/></a>
+                <!--            </div>-->
+            </div>
+            <div class="col-lg-2 brand-box">
+                <!--            <div class="row">-->
+                <a href="#" type="button"><img src="img/brands/samsung-logo.png" alt="" class="img-responsive"/></a>
+                <!--            </div>-->
+            </div>
+            <div class="col-lg-2 brand-box">
+                <!--            <div class="row">-->
+                <a href="#" type="button"><img src="img/brands/acer-logo.png" alt="" class="img-responsive"/></a>
+                <!--            </div>-->
+            </div>
+            <div class="col-lg-2 brand-box">
+                <!--            <div class="row">-->
+                <a href="#" type="button"><img src="img/brands/canon%20logo.png" alt="" class="img-responsive"/></a>
+                <!--            </div>-->
+            </div>
+            <div class="col-lg-2 brand-box">
+                <!--            <div class="row">-->
+                <a href="#" type="button"><img src="img/brands/microsoft-logo.png" alt="" class="img-responsive"/></a>
+                <!--            </div>-->
+            </div>
+            <div class="col-lg-2 brand-box">
+                <!--            <div class="row">-->
+                <a href="#" type="button"><img src="img/brands/intel-logo.png" alt="" class="img-responsive"/></a>
+                <!--            </div>-->
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="featured col-lg-12">
+    <div class="container">
+        <div class="row">
+            <h3 class="heading">Featured Offers</h3>
+        </div>
+        <div class="row">
+            <div id="featured" class="owl-carousel owl-theme">
+                <div class="bx1">
+                    <a href="#" type="button"><img src="img/laptop.jpg" class="img-responsive" alt=""/></a>
+                    <h3>Save upto $300</h3>
+                    <p>on select Windows laptops with Student Deals.</p>
+                    <a href="#">Shop Now ></a>
+                </div>
+                <div class="bx1">
+                    <a href="#" type="button"><img src="img/s10e.jpg" class="img-responsive" alt=""/></a>
+                    <h3>Save up to $500</h3>
+                    <p>on unlocked Samsung Galaxy S10e, S10 or S10+ with qualified activation.</p>
+                    <a href="#">Shop Now ></a>
+                </div>
+                <div class="bx1">
+                    <a href="#" type="button"><img src="img/lg-tv.jpg" class="img-responsive" alt=""/></a>
+                    <h3>Save up to $500</h3>
+                    <p>on select LG 4K TVs.</p>
+                    <a href="#">Shop Now ></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="featured col-lg-12">
+    <div class="container">
+        <div class="row">
+            <h3 class="heading">Most Viewed</h3>
+        </div>
+        <div class="row">
+            <div id="most-view" class="owl-carousel owl-theme">
+                <div class="bx1">
+                    <a href="apple-watch.html"><img src="img/apple-watch/apple-watch-4-sm.jpg" class="img-responsive" alt=""/></a>
+                    <h4>Apple - Apple Watch Series 4 (GPS) 40mm Gold Aluminum Case with Pink Sand Sport Band - Gold Aluminum</h4>
+                    <p>$349.99</p>
+                    <a href="apple-watch.html">Shop Now ></a>
+                </div>
+                <div class="bx1">
+                    <a href="#"><img src="img/s10+-sm.jpg" class="img-responsive" alt=""/></a>
+                    <h4>Samsung - Galaxy S10+ with 128GB Memory Cell Phone (Unlocked) Prism - Black </h4>
+                    <p>$799.99</p>
+                    <a href="#">Shop Now ></a>
+                </div>
+                <div class="bx1">
+                    <a href="#"><img src="img/apple-ipad.jpg" class="img-responsive" alt=""/></a>
+                    <h4>Apple - iPad (Latest Model) with Wi-Fi - 32GB - Space Gray</h4>
+                    <p>$249.99</p>
+                    <a href="#">Shop Now ></a>
+                </div>
+                <div class="bx1">
+                    <a href="#"><img src="img/nintendo-switch.jpg" class="img-responsive" alt=""/></a>
+                    <h4>Nintendo - Switch 32GB Console - Neon Red/Neon Blue Joy-Con</h4>
+                    <p>$299.99</p>
+                    <a href="#">Shop Now ></a>
+                </div>
+                <div class="bx1">
+                    <a href="#"><img src="img/tcl-tv.jpg" class="img-responsive" alt=""/></a>
+                    <h4>TCL - 32" Class - LED - 3-Series - 1080p - Smart - HDTV Roku TV</h4>
+                    <p>$149.99</p>
+                    <a href="#">Shop Now ></a>
+                </div>
+                <div class="bx1">
+                    <a href="#"><img src="img/ps4.jpg" class="img-responsive" alt=""/></a>
+                    <h4>Sony - PlayStation 4 1TB Console - Black</h4>
+                    <p>$249.99</p>
+                    <a href="#">Shop Now ></a>
+                </div>
+                <div class="bx1">
+                    <a href="#"><img src="img/xbox-one-s.jpg" class="img-responsive" alt=""/></a>
+                    <h4>Microsoft - Xbox One S 1TB All-Digital Edition Console (Disc-free Gaming)</h4>
+                    <p>$249.99</p>
+                    <a href="#">Shop Now ></a>
+                </div>
+                <div class="bx1">
+                    <a href="#"><img src="img/iphone-xs-max.jpg" class="img-responsive" alt=""/></a>
+                    <h4>Apple - iPhone XS Max 256GB - Silver (AT&T)</h4>
+                    <p>$1249.99</p>
+                    <a href="#">Shop Now ></a>
+                </div>
+                <div class="bx1">
+                    <a href="#"><img src="img/pixel-3a.jpg" class="img-responsive" alt=""/></a>
+                    <h4>Google - Pixel 3a with 64GB Memory Cell Phone (Unlocked) - Just Black</h4>
+                    <p>$349.99</p>
+                    <a href="#">Shop Now ></a>
+                </div>
+                <div class="bx1">
+                    <a href="#"><img src="img/macbook-13.3in.jpg" class="img-responsive" alt=""/></a>
+                    <h4>Apple - MacBook Air 13.3" Laptop with Touch ID - Intel Core i5 - 8GB Memory - 128GB Solid State Drive - Space Gray</h4>
+                    <p>$899.99</p>
+                    <a href="#">Shop Now ></a>
+                </div>
+                <div class="bx1">
+                    <a href="#"><img src="img/samsung-8K.jpg" class="img-responsive" alt=""/></a>
+                    <h4>Samsung - 82" Class - LED - Q900 Series - 4320p - Smart - 8K UHD TV with HDR</h4>
+                    <p>$7499.99</p>
+                    <a href="#">Shop Now ></a>
+                </div>
+                <div class="bx1">
+                    <a href="#"><img src="img/epson-projector.jpg" class="img-responsive" alt=""/></a>
+                    <h4>Epson - Home Cinema 2150 1080p Wireless 3LCD Projector - White
+                    </h4>
+                    <p>$299.99</p>
+                    <a href="#">Shop Now ></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="featured col-lg-12">
+    <div class="container">
+        <div class="row">
+            <h3 class="heading">Best Sellers</h3>
+        </div>
+        <div class="row">
+            <div id="best-sell" class="owl-carousel owl-theme">
+                <div class="bx1">
+                    <img src="img/razer-keyboard.jpg" class="img-responsive" alt=""/>
+                    <h4>Razer - Ornata Chroma Wired Gaming Mecha-Membrane Keyboard with RGB Back Lighting - Black</h4>
+                    <p>$199.99</p>
+                    <a href="#">Shop Now ></a>
+                </div>
+                <div class="bx1">
+                    <img src="img/razer-mouse.jpg" class="img-responsive" alt=""/>
+                    <h4>Razer - Lancehead Wireless Optical Gaming Mouse with Chroma Lighting - Black</h4>
+                    <p>$149.99</p>
+                    <a href="#">Shop Now ></a>
+                </div>
+                <div class="bx1">
+                    <img src="img/hp-24in.jpg" class="img-responsive" alt=""/>
+                    <h4>LG - 24" IPS LED FHD FreeSync Monitor - Black</h4>
+                    <p>$299.99</p>
+                    <a href="#">Shop Now ></a>
+                </div>
+                <div class="bx1">
+                    <img src="img/acer-gaming.jpg" class="img-responsive" alt=""/>
+                    <h4>Acer - Nitro 5 15.6" Gaming Laptop - Intel Core i5 - 8GB Memory - NVIDIA GeForce GTX 1050 Ti - 256GB Solid State Drive - Shale BlackLG - 24" IPS LED FHD FreeSync Monitor - Black</h4>
+                    <p>$1299.99</p>
+                    <a href="#">Shop Now ></a>
+                </div>
+                <div class="bx1">
+                    <img src="img/pc-gaming.jpg" class="img-responsive" alt=""/>
+                    <h4>HP - Gaming Desktop - AMD Ryzen 7 2700 - 16GB Memory - AMD Radeon RX 580 4GB - 1TB HDD + 128GB SSD - Black</h4>
+                    <p>$899.99</p>
+                    <a href="#">Shop Now ></a>
+                </div>
+                <div class="bx1">
+                    <img src="img/canon-printer.jpg" class="img-responsive" alt=""/>
+                    <h4>Canon - Color imageCLASS MF731Cdw Wireless Color All-In-One Printer - White</h4>
+                    <p>$399.99</p>
+                    <a href="#">Shop Now ></a>
+                </div>
+                <div class="bx1">
+                    <img src="img/google-home.jpg" class="img-responsive" alt=""/>
+                    <h4>Google - Home Mini - Smart Speaker with Google Assistant - Chalk</h4>
+                    <p>$299.99</p>
+                    <a href="#">Shop Now ></a>
+                </div>
+                <div class="bx1">
+                    <img src="img/surface-book-2.jpg" class="img-responsive" alt=""/>
+                    <h4>Microsoft - Surface Book 2 - 13.5" Touch-Screen PixelSense™ - 2-in-1 Laptop - Intel Core i5 - 8GB Memory - 256GB SSD - Platinum</h4>
+                    <p>$799.99</p>
+                    <a href="#">Shop Now ></a>
+                </div>
+                <div class="bx1">
+                    <img src="img/amazon-echo.jpg" class="img-responsive" alt=""/>
+                    <h4>Amazon - Echo (2nd Gen) - Smart Speaker with Alexa - Charcoal Fabric</h4>
+                    <p>$299.99</p>
+                    <a href="#">Shop Now ></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<footer>
+    <section class="features col-lg-12">
+        <div class="container">
+            <div class="col-lg-8 col-lg-offset-2">
+                <div class="col-lg-4 ship">
+                    <div class="col-lg-5 ship-img">
+                        <img src="img/shipping-fast.png" alt="" class="img-responsive"/>
+                    </div>
+                    <p>Free Delivery</p>
+                </div>
+                <div class="col-lg-4 price">
+                    <div class="col-lg-3 price-img">
+                        <img src="img/low-price.png" alt="" class="img-responsive"/>
+                    </div>
+                    <p>Lowest prices Guaranteed</p>
+                </div>
+                <div class="col-lg-4 support">
+                    <div class="col-lg-4 support-img">
+                        <img src="img/customer-service-icon-3.png" alt="" class="img-responsive"/>
+                    </div>
+                    <p>24/7 Customer Support</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="col-lg-12 panel-footer">
+        <div class="container">
+            <div class="col-lg-3 col-md-4 col-sm-5 col-xs-8">
+                <div class="row logo">
+                    <a href="index.html"><img src="img/logo_1.png" alt="" class="img-responsive"></a>
+                </div>
+                <div class="row">
+                    <p>Your one-stop solution for all your electronic needs!
+                        Be it laptops, mobiles, tablets, TV's, consoles; You name it, We have it!</p>
+                    <div class="row">
+                        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 social"><a href="#"><img src="img/fb1.png" class="img-responsive"></a></div>
+                        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 social"><a href="#"><img src="img/tw.png" class="img-responsive"></a></div>
+                    </div>
+                    <p class="copyright">© 2019 Copyright - All Rights Reserved</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-lg-offset-6 col-md-3 col-md-offset-5 col-sm-3 col-sm-offset-4 col-xs-4 text-right foot-nav">
+                <ul class="list-unstyled">
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Account</a></li>
+                    <li><a href="#">Customer Care</a></li>
+                    <li><a href="#">Track My Order</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+
+<script>
+    $(document).ready(function(){
+
+        $('#banner').owlCarousel({
+            loop:true,
+            nav:false,
+            dots: true,
+            autoplay:true,
+            autoplayTimeout:5000,
+            autoplayHoverPause:true,
+            lazyLoad:true,
+            animateOut: 'fadeOut',
+            autoHeight:true,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:1
+                },
+                1000:{
+                    items:1
+                }
+            }
+        });
+
+        $('#featured').owlCarousel({
+            loop:true,
+            nav: true,
+            dots: true,
+            center:true,
+            autoplay:true,
+            autoplayTimeout:10000,
+            autoplayHoverPause:true,
+            lazyLoad:true,
+            autoHeight: true,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:3
+                },
+                1000:{
+                    items:3
+                }
+            }
+        });
+
+        $('#most-view').owlCarousel({
+            loop:true,
+            nav: true,
+            dots: true,
+            autoplay:true,
+            autoplayTimeout:10000,
+            autoplayHoverPause:true,
+            lazyLoad:true,
+            autoHeight: true,
+            responsive:{
+                0:{
+                    items:2
+                },
+                600:{
+                    items:4
+                },
+                1000:{
+                    items:4
+                }
+            }
+        });
+
+        $('#best-sell').owlCarousel({
+            loop:true,
+            nav: true,
+            dots: true,
+            autoplay:true,
+            autoplayTimeout:10000,
+            autoplayHoverPause:true,
+            lazyLoad:true,
+            autoHeight: true,
+            responsive:{
+                0:{
+                    items:2
+                },
+                600:{
+                    items:4
+                },
+                1000:{
+                    items:4
+                }
+            }
+        });
+
+//    $('.alt-pics').owlCarousel({
+//        nav: true,
+//        lazyLoad:true,
+//        autoHeight: true,
+//        center:true,
+//        margin:5,
+//        responsive:{
+//            0:{
+//                items:7
+//            },
+//            600:{
+//                items:7
+//            },
+//            1000:{
+//                items:7
+//            }
+//        }
+//    });
+
+        $('#open-review-box').click(function(){
+            $('#review-box').slideDown(650);
+            $('#open-review-box').fadeOut(400);
+            $('#review-box').addClass('show-review');
+
+        });
+
+        $('#close-review-box').click(function(){
+            $('#review-box').slideUp(650);
+            $('#open-review-box').fadeIn(600);
+            $('#review-box').removeClass('show-review');
+        });
+
+        $('.btn-toggle').click(function(){
+            if($('.content').height() < 1001)
+            {
+                $('.content').removeClass('height-limit');
+                $('.btn-toggle>span').text('VIEW LESS');
+            } else {
+                $('.content').addClass('height-limit');
+                $('.btn-toggle>span').text('VIEW MORE');
+            }
+        });
+
+
+        /* 1. Visualizing things on Hover - See next part for action on click */
+        $('#stars li').on('mouseover', function(){
+            var onStar = parseInt($(this).data('value'), 10); // The star currently mouse on
+
+            // Now highlight all the stars that's not after the current hovered star
+            $(this).parent().children('li.star').each(function(e){
+                if (e < onStar) {
+                    $(this).addClass('hover');
+                }
+                else {
+                    $(this).removeClass('hover');
+                }
+            });
+
+        }).on('mouseout', function(){
+            $(this).parent().children('li.star').each(function(e){
+                $(this).removeClass('hover');
+            });
+        });
+
+
+        /* 2. Action to perform on click */
+        $('#stars li').on('click', function(){
+            var onStar = parseInt($(this).data('value'), 10); // The star currently selected
+            var stars = $(this).parent().children('li.star');
+
+            for (i = 0; i < stars.length; i++) {
+                $(stars[i]).removeClass('selected');
+            }
+
+            for (i = 0; i < onStar; i++) {
+                $(stars[i]).addClass('selected');
+            }
+
+        });
+
+        $('.count').prop('disabled', true);
+        $(document).on('click','.plus',function(){
+            $('.count').val(parseInt($('.count').val()) + 1 );
+        });
+        $(document).on('click','.minus',function(){
+            $('.count').val(parseInt($('.count').val()) - 1 );
+            if ($('.count').val() == 0) {
+                $('.count').val(1);
+            }
+        });
+    });
+
+
+</script>
+
+
+</html>

@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+
+</head>
+
+
+<body>
+<header>
+    <div class="container">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <ul class="nav navbar-nav navbar-right top-nav">
+                <li><a href="#">Customer Care</a></li>
+                <li><a href="#">Track My Order</a></li>
+                <li><a href="#" data-toggle="modal" data-target="#signup">Login</a></li>
+                <li><a href="#" data-toggle="modal" data-target="#signup">Sign Up</a></li>
+            </ul>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-8 logo">
+            <a href="index.html"><img src="img/logo_1.png" alt="" class="img-responsive"></a>
+        </div>
+        <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 nav1">
+            <form>
+                <div class="form-group col-lg-9 col-md-9 col-sm-8 col-xs-12">
+                    <input type="text" class="form-control" placeholder="Search">
+                    <button type="submit" class="btn btn-default"><img src="img/search.png" class="img-responsive" </button>
+                </div>
+            </form>
+            <ul class="nav navbar-nav navbar-right ico col-lg-2 col-md-3 col-sm-4 col-xs-1">
+                <li class="acc"><a href="#" data-toggle="modal" data-target="#signup"><img src="img/acount.png" alt="" class="img-responsive" style="height: 32px"/></a></li>
+                <li class="shop"><a href="cart.html"><img src="img/shopping-cart.png" alt="" class="img-responsive" style="height: 32px"/></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="links">
+        <div class="container">
+            <nav class="navbar navbar-default">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1,#navbar-collapse-2,#navbar-collapse-3">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse navbar-left" id="navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Products <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">One more separated link</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Brands <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">One more separated link</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Deals <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">One more separated link</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Services <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">One more separated link</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+                <div class="collapse navbar-collapse navbar-right" id="navbar-collapse-2">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">Orders</a></li>
+                        <li><a href="#">Saved Items</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </nav>
+        </div>
+    </div>
+</header>
+
+<div class="modal fade" tabindex="-1" role="dialog" id="signup">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <div class="col-lg-12">
+                    <div class="col-lg-6">
+                        <h3 class="text-center">Login</h3>
+                    </div>
+                    <div class="col-lg-6">
+                        <h3 class="text-center">Sign Up</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="container-fluid">
+                        <div class="col-lg-6 login">
+                            <form>
+                                <div class="user-box col-lg-12 form-group">
+                                    <label for="username">Username or Email*</label>
+                                    <input type="text" id="username" class="form-control"/>
+                                </div>
+                                <div class="pass-box col-lg-12 form-group">
+                                    <label for="password">Password*</label>
+                                    <input type="text" id="password" class="form-control"/>
+                                </div>
+                                <div class="col-lg-6 form-group">
+                                    <a href="#" type="button">Forgot Password?</a>
+                                </div>
+                                <div class="col-lg-6 form-group text-right">
+                                    <input type="checkbox" class="checkbox-inline remember" id="remember"/>
+                                    <label for="remember">Remember Me</label>
+                                </div>
+                                <div class="col-lg-12 form-group">
+                                    <a class="btn btn-review btn-block" type="button" href="cart.html">Login</a>
+                                </div>
+                                <div class="col-lg-12 btn-social">
+                                    <button class="btn btn-review fb btn-block" type="button"><i class="fa-facebook-f fab"></i> Login In with Facebook</button>
+                                    <button class="btn btn-review google btn-block" type="button"><i class="fa-google-plus-g fab"></i> Login In with Google</button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-lg-6 signup">
+                            <form>
+                                <div class="user-box">
+                                    <div class="col-lg-6 form-group">
+                                        <label for="fname">First Name*</label>
+                                        <input type="text" id="fname" class="form-control"/>
+                                    </div>
+                                    <div class="col-lg-6 form-group">
+                                        <label for="lname">Last Name*</label>
+                                        <input type="text" id="lname" class="form-control"/>
+                                    </div>
+                                </div>
+                                <div class="user-box col-lg-12 form-group">
+                                    <label for="email">Email*</label>
+                                    <input type="text" id="email" class="form-control"/>
+                                </div>
+                                <div class="pass-box col-lg-12 form-group">
+                                    <label for="password">New Password*</label>
+                                    <input type="text" id="password" class="form-control"/>
+                                </div>
+                                <div class="pass-box col-lg-12 form-group">
+                                    <label for="cpassword">Confirm Password*</label>
+                                    <input type="text" id="cpassword" class="form-control"/>
+                                </div>
+                                <div class="col-lg-12">
+                                    <a class="btn btn-review btn-block" type="button" href="cart.html">Sign Up</a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <p>*Required fields</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+    <section class="product-head col-lg-12">
+        <div class="row">
+            <div class="prod-img-grp col-lg-4 col-xs-12">
+                <div class="col-lg-12 prod-img">
+                    <img src="img/apple-watch/apple-watch-4-lg.jpg" alt="" class="img-responsive"/>
+                    <!--                        <div class="col-lg-12">-->
+                    <!--                        <div class="alt-pics owl-carousel">-->
+                    <!--                            <div class="sm-box">-->
+                    <!--                                <img src="img/apple-watch-4-lg.jpg" alt="" class="img-responsive"/>-->
+                    <!--                            </div>-->
+                    <!--                            <div class="sm-box">-->
+                    <!--                                <img src="img/apple-watch-4-lg1.jpg" alt="" class="img-responsive"/>-->
+                    <!--                            </div>-->
+                    <!--                        </div>-->
+
+                    <!--                        </div>-->
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 alt-pics-bx">
+                    <div class="alt-pics col-lg-6 col-lg-offset-3 col-xs-6">
+                        <div class="sm-box col-lg-5 col-xs-5">
+                            <img src="img/apple-watch/apple-watch-4-lg.jpg" alt="" class="img-responsive"/>
+                        </div>
+                        <div class="sm-box col-lg-5 col-xs-5">
+                            <img src="img/apple-watch/apple-watch-4-lg1.jpg" alt="" class="img-responsive"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-8 col-xs-12 prod-info">
+                <div class="row prod-name">
+                    <h3>Apple - Apple Watch Series 4 (GPS) 40mm Gold Aluminum Case with Pink Sand Sport Band - Gold Aluminum</h3>
+                </div>
+                <div class="row">
+                    <div class="rating col-lg-5 col-xs-9">
+                        <p>Rating: <span class="star-icon"><i class="fa-star fa"></i> <i class="fa-star fa"></i> <i class="fa-star fa"></i> <i class="fa-star fa"></i> <i class="fa-star-half-alt fa"></i></span> | 5 User Reviews</p>
+                    </div>
+                    <div class="share-links col-lg-2 col-lg-offset-5 col-xs-3">
+                        <i class="far fa-heart"></i> <i class="fa fa-share-alt"></i>
+                    </div>
+                </div>
+                <div class="price row">
+                    <div class="col-lg-12"><h1 style="margin: 0"><sup>$</sup>349.99</h1></div>
+                </div>
+
+                <div class="row color">
+                    <div class="col-lg-6">
+                        <div class="row">
+                            <p>Color:</p>
+                        </div>
+                        <div class="row">
+                            <div class="clr-bx-grp">
+                                <div>
+                                    <input type="radio" data-image="gold" value="gold" id="gold" name="color" checked/>
+                                    <label for="gold"><span></span></label>
+                                </div>
+                                <div>
+                                    <input type="radio" data-image="grey" value="grey" id="grey" name="color"/>
+                                    <label for="grey"><span></span></label>
+                                </div>
+                                <div>
+                                    <input type="radio" data-image="silver" value="silver" id="silver" name="color"/>
+                                    <label for="silver"><span></span></label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row qnty">
+                    <div class="col-lg-1">
+                        <p>Quantity:</p>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="qty mt-5">
+                            <span class="minus bg-dark">-</span>
+                            <input type="number" class="count" name="qty" value="1">
+                            <span class="plus bg-dark">+</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <button type="button" class="btn-info" data-toggle="modal" data-target="#signup">Buy Now</button>
+                    <button type="button" class="btn-warning" data-toggle="modal" data-target="#signup">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="product-detail col-lg-12">
+        <div class="row">
+            <h3 style="font-weight: bold; color: #104390">Overview</h3>
+            <p style="color: #222222">Introducing Apple Watch Series 4. Fundamentally redesigned and reengineered to help you stay even more active, healthy, and connected. The largest Apple Watch display yet. Built-in electrical heart sensor. New Digital Crown with haptic feedback. Low and high heart rate notifications. New ECG App detects irregular heart rhythms. Fall detection and Emergency SOS.</p>
+        </div>
+        <div class="row">
+            <div class="tabs">
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs" role="tablist">
+                    <li role="presentation"><a href="#info" aria-controls="info" role="tab" data-toggle="tab">More Information</a></li>
+                    <li role="presentation" class="active"><a href="#specs" aria-controls="specs" role="tab" data-toggle="tab">Details & Specs</a></li>
+                    <li role="presentation"><a href="#reviews" aria-controls="reviews" role="tab" data-toggle="tab">Ratings & Reviews</a></li>
+                    <!--                                <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>-->
+                </ul>
+
+                <!-- Tab panes -->
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane" id="info">
+                        <div class="content col-lg-12 height-limit">
+                            <div class="row">
+                                <ul class="list-unstyled col-lg-6">
+                                    <li>GPS</li>
+                                    <li>Over 30% larger display</li>
+                                    <li>Electrical and optical heart sensors</li>
+                                    <li>Irregular heart rhythm notifications</li>
+                                    <li>Digital Crown with haptic feedback</li>
+                                    <li>50% louder speaker</li>
+                                    <li>S4 SiP with faster 64-bit dual-core processor</li>
+                                    <li>Improved accelerometer and gyroscope for fall detection</li>
+                                    <li>Swimproof</li>
+                                    <li>watchOS 5</li>
+                                    <li>New Breathe watch faces</li>
+                                </ul>
+                                <ul class="list-unstyled col-lg-6">
+                                    <li>Automatic workout detection</li>
+                                    <li>New yoga and hiking workouts</li>
+                                    <li>Advanced features for runners like cadence and pace alerts</li>
+                                    <li>New head-to-head competitions</li>
+                                    <li>Activity sharing with friends</li>
+                                    <li>Personalized coaching</li>
+                                    <li>Monthly challenges and achievement awards</li>
+                                    <li>Use Walkie-Talkie, make phone calls, and send messages</li>
+                                    <li>Stream Apple Music and Apple Podcasts</li>
+                                    <li>Use Siri in all-new ways</li>
+                                    <li>Aluminum or stainless steel case</li>
+                                </ul>
+                            </div>
+                            <img src="img/apple-watch/apple-watch-info-1.jpg" alt="" class="img-responsive"/>
+                            <img src="img/apple-watch/apple-watch-info-2.jpg" alt="" class="img-responsive"/>
+                            <img src="img/apple-watch/apple-watch-info-3.jpg" alt="" class="img-responsive"/>
+                            <img src="img/apple-watch/apple-watch-info-4.jpg" alt="" class="img-responsive"/>
+                            <img src="img/apple-watch/apple-watch-info-5.jpg" alt="" class="img-responsive"/>
+                            <img src="img/apple-watch/apple-watch-info-6.jpg" alt="" class="img-responsive"/>
+                            <img src="img/apple-watch/apple-watch-info-7.jpg" alt="" class="img-responsive"/>
+                            <img src="img/apple-watch/apple-watch-info-8.jpg" alt="" class="img-responsive"/>
+                            <img src="img/apple-watch/apple-watch-info-9.jpg" alt="" class="img-responsive"/>
+                            <img src="img/apple-watch/apple-watch-info-10.jpg" alt="" class="img-responsive"/>
+                            <img src="img/apple-watch/apple-watch-info-11.jpg" alt="" class="img-responsive"/>
+                        </div>
+                        <div class="col-lg-12 text-center">
+                            <button type="button" class="btn btn-toggle">
+                                <span class="btn-view">VIEW MORE</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div role="tabpanel" class="tab-pane" id="specs">
+                        <table class="table table-striped">
+                            <tr>
+                                <td>Watch Series</td>
+                                <td>Series 4 (GPS)</td>
+                            </tr>
+                            <tr>
+                                <td>Display Size (Wearables)</td>
+                                <td>40 mm</td>
+                            </tr>
+                            <tr>
+                                <td>Water Resistance</td>
+                                <td>Swimproof</td>
+                            </tr>
+                            <tr>
+                                <td>Operating System</td>
+                                <td>watchOS</td>
+                            </tr>
+                            <tr>
+                                <td>GPS</td>
+                                <td>Yes</td>
+                            </tr>
+                            <tr>
+                                <td>Heart Rate</td>
+                                <td>Yes</td>
+                            </tr>
+                            <tr>
+                                <td>ECG</td>
+                                <td>Yes</td>
+                            </tr>
+                            <tr>
+                                <td>Personal safety Alert</td>
+                                <td>Yes</td>
+                            </tr>
+                            <tr>
+                                <td>Share Info Operation</td>
+                                <td>Yes</td>
+                            </tr>
+                            <tr>
+                                <td>Certfications</td>
+                                <td>Medical Device License from Health Canada</td>
+                            </tr>
+                        </table>
+                        <h4>Dimensions</h4>
+                        <table class="table table-striped">
+                            <tr>
+                                <td>Width</td>
+                                <td>7.700 cm</td>
+                            </tr>
+                            <tr>
+                                <td>Depth</td>
+                                <td>29.700 cm</td>
+                            </tr>
+                            <tr>
+                                <td>Height</td>
+                                <td>5.700 cm</td>
+                            </tr>
+                            <tr>
+                                <td>Weight</td>
+                                <td>520 g</td>
+                            </tr>
+
+                        </table>
+                    </div>
+                    <div role="tabpanel" class="tab-pane active" id="reviews">
+                        <div class="row rating">
+                            <div class="col-lg-4 col-xs-12 rating-main text-center">
+                                <span class="stars">4.6/5</span>
+                                <span class="center-block star-icon"><i class="fa-star fa"></i> <i class="fa-star fa"></i> <i class="fa-star fa"></i> <i class="fa-star fa"></i> <i class="fa fa-star-half-alt"></i></span>
+                                <p>5 reviews</p>
+                            </div>
+                            <div class="col-lg-8 col-xs-12 rating-stars">
+                                <div class="col-lg-3 col-xs-5">
+                                    <span class="center-block star-icon"><i class="fa-star fa"></i> <i class="fa-star fa"></i> <i class="fa-star fa"></i> <i class="fa-star fa"></i> <i class="fa fa-star"></i></span>
+                                    <br/>
+                                    <span class="center-block star-icon"><i class="fa-star fa"></i> <i class="fa-star fa"></i> <i class="fa-star fa"></i> <i class="fa-star fa"></i></span>
+                                    <br/>
+                                    <span class="center-block star-icon"><i class="fa-star fa"></i> <i class="fa-star fa"></i> <i class="fa-star fa"></i></span>
+                                    <br/>
+                                    <span class="center-block star-icon"><i class="fa-star fa"></i> <i class="fa-star fa"></i></span>
+                                    <br/>
+                                    <span class="center-block star-icon"><i class="fa-star fa"></i></span>
+                                </div>
+                                <div class="col-lg-8 col-xs-6 rating-bars">
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">
+                                            <span class="sr-only">60% Complete</span>
+                                        </div>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">
+                                            <span class="sr-only">60% Complete</span>
+                                        </div>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 0;">
+                                            <span class="sr-only">60% Complete</span>
+                                        </div>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 0;">
+                                            <span class="sr-only">60% Complete</span>
+                                        </div>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 0;">
+                                            <span class="sr-only">60% Complete</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-1 col-xs-1">
+                                    <span class="center-block">3</span>
+                                    <br/>
+                                    <span class="center-block">2</span>
+                                    <br/>
+                                    <span class="center-block">0</span>
+                                    <br/>
+                                    <span class="center-block">0</span>
+                                    <br/>
+                                    <span class="center-block">0</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row new-review text-center">
+                            <div class="row" id="review-box" style="display: none">
+                                <div class="col-lg-12">
+                                    <form action="">
+                                        <textarea class="col-lg-12 col-md-12 col-sm-12 col-xs-12" name="comment" id="new-review" cols="10" rows="5" placeholder="Write your review here..."></textarea>
+                                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 text-left new-review-stars">
+                                            <ul id="stars">
+                                                <li class="star" title="Poor" data-value="1">
+                                                    <i class="fa fa-star fa-fw"></i>
+                                                </li>
+                                                <li class="star" title="Fair" data-value="2">
+                                                    <i class="fa fa-star fa-fw"></i>
+                                                </li>
+                                                <li class="star" title="Good" data-value="3">
+                                                    <i class="fa fa-star fa-fw"></i>
+                                                </li>
+                                                <li class="star" title="Excellent" data-value="4">
+                                                    <i class="fa fa-star fa-fw"></i>
+                                                </li>
+                                                <li class="star" title="Wow!!" data-value="5">
+                                                    <i class="fa fa-star fa-fw"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 text-right new-review-btn">
+                                            <button type="button" class="btn btn-review" id="close-review-box">Cancel</button>
+                                            <button type="button" class="btn btn-review">Submit</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <a type="button" class="btn btn-review" id="open-review-box">Write a Review</a>
+                        </div>
+
+                        <div class="row review">
+                            <h4 style="font-weight: bold; color: #104390;">User Reviews</h4>
+                            <div class="row">
+                                <ul class="media-list">
+                                    <li class="media col-lg-8 col-xs-12">
+                                        <div class="media-left col-lg-1 col-xs-2">
+                                            <a href="#">
+                                                <img class="media-object img-circle img-responsive" src="img/user.png" alt="...">
+                                            </a>
+                                        </div>
+                                        <div class="media-body">
+                                            <div class="media-head col-lg-12">
+                                                <h4 class="media-heading col-lg-8">Sufi Sahab</h4>
+
+                                                <span class="col-lg-12 review-star star-icon"><i class="fa-star fa"></i> <i class="fa-star fa"></i> <i class="fa-star fa"></i> <i class="fa-star fa"></i> <i class="fa fa-star"></i></span>
+                                                <span class="review-date col-lg-12">on August 10,2018<br/></span>
+                                            </div>
+                                            <div class="media-text col-lg-12">
+                                                Great watch! Love the series 4. Delivered faster than Apple.
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!--                                <div role="tabpanel" class="tab-pane" id="settings">...</div>-->
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+
+
+
+
+<footer>
+    <section class="features col-lg-12">
+        <div class="container">
+            <div class="col-lg-8 col-lg-offset-2">
+                <div class="col-lg-4 ship">
+                    <div class="col-lg-5 ship-img">
+                        <img src="img/shipping-fast.png" alt="" class="img-responsive"/>
+                    </div>
+                    <p>Free Delivery</p>
+                </div>
+                <div class="col-lg-4 price">
+                    <div class="col-lg-3 price-img">
+                        <img src="img/low-price.png" alt="" class="img-responsive"/>
+                    </div>
+                    <p>Lowest prices Guaranteed</p>
+                </div>
+                <div class="col-lg-4 support">
+                    <div class="col-lg-4 support-img">
+                        <img src="img/customer-service-icon-3.png" alt="" class="img-responsive"/>
+                    </div>
+                    <p>24/7 Customer Support</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="col-lg-12 panel-footer">
+        <div class="container">
+            <div class="col-lg-3 col-md-4 col-sm-5 col-xs-8">
+                <div class="row logo">
+                    <a href="index.html"><img src="img/logo_1.png" alt="" class="img-responsive"></a>
+                </div>
+                <div class="row">
+                    <p>Your one-stop solution for all your electronic needs!
+                        Be it laptops, mobiles, tablets, TV's, consoles; You name it, We have it!</p>
+                    <div class="row">
+                        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 social"><a href="#"><img src="img/fb1.png" class="img-responsive"></a></div>
+                        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 social"><a href="#"><img src="img/tw.png" class="img-responsive"></a></div>
+                    </div>
+                    <p class="copyright">© 2019 Copyright - All Rights Reserved</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-lg-offset-6 col-md-3 col-md-offset-5 col-sm-3 col-sm-offset-4 col-xs-4 text-right foot-nav">
+                <ul class="list-unstyled">
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Account</a></li>
+                    <li><a href="#">Customer Care</a></li>
+                    <li><a href="#">Track My Order</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+
+<script>
+    $(document).ready(function(){
+
+        $('#banner').owlCarousel({
+            loop:true,
+            nav:false,
+            dots: true,
+            autoplay:true,
+            autoplayTimeout:5000,
+            autoplayHoverPause:true,
+            lazyLoad:true,
+            animateOut: 'fadeOut',
+            autoHeight:true,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:1
+                },
+                1000:{
+                    items:1
+                }
+            }
+        });
+
+        $('#featured').owlCarousel({
+            loop:true,
+            nav: true,
+            dots: true,
+            center:true,
+            autoplay:true,
+            autoplayTimeout:10000,
+            autoplayHoverPause:true,
+            lazyLoad:true,
+            autoHeight: true,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:3
+                },
+                1000:{
+                    items:3
+                }
+            }
+        });
+
+        $('#most-view').owlCarousel({
+            loop:true,
+            nav: true,
+            dots: true,
+            autoplay:true,
+            autoplayTimeout:10000,
+            autoplayHoverPause:true,
+            lazyLoad:true,
+            autoHeight: true,
+            responsive:{
+                0:{
+                    items:2
+                },
+                600:{
+                    items:4
+                },
+                1000:{
+                    items:4
+                }
+            }
+        });
+
+        $('#best-sell').owlCarousel({
+            loop:true,
+            nav: true,
+            dots: true,
+            autoplay:true,
+            autoplayTimeout:10000,
+            autoplayHoverPause:true,
+            lazyLoad:true,
+            autoHeight: true,
+            responsive:{
+                0:{
+                    items:2
+                },
+                600:{
+                    items:4
+                },
+                1000:{
+                    items:4
+                }
+            }
+        });
+
+//    $('.alt-pics').owlCarousel({
+//        nav: true,
+//        lazyLoad:true,
+//        autoHeight: true,
+//        center:true,
+//        margin:5,
+//        responsive:{
+//            0:{
+//                items:7
+//            },
+//            600:{
+//                items:7
+//            },
+//            1000:{
+//                items:7
+//            }
+//        }
+//    });
+
+        $('#open-review-box').click(function(){
+            $('#review-box').slideDown(650);
+            $('#open-review-box').fadeOut(400);
+            $('#review-box').addClass('show-review');
+
+        });
+
+        $('#close-review-box').click(function(){
+            $('#review-box').slideUp(650);
+            $('#open-review-box').fadeIn(600);
+            $('#review-box').removeClass('show-review');
+        });
+
+        $('.btn-toggle').click(function(){
+            if($('.content').height() < 1001)
+            {
+                $('.content').removeClass('height-limit');
+                $('.btn-toggle>span').text('VIEW LESS');
+            } else {
+                $('.content').addClass('height-limit');
+                $('.btn-toggle>span').text('VIEW MORE');
+            }
+        });
+
+
+        /* 1. Visualizing things on Hover - See next part for action on click */
+        $('#stars li').on('mouseover', function(){
+            var onStar = parseInt($(this).data('value'), 10); // The star currently mouse on
+
+            // Now highlight all the stars that's not after the current hovered star
+            $(this).parent().children('li.star').each(function(e){
+                if (e < onStar) {
+                    $(this).addClass('hover');
+                }
+                else {
+                    $(this).removeClass('hover');
+                }
+            });
+
+        }).on('mouseout', function(){
+            $(this).parent().children('li.star').each(function(e){
+                $(this).removeClass('hover');
+            });
+        });
+
+
+        /* 2. Action to perform on click */
+        $('#stars li').on('click', function(){
+            var onStar = parseInt($(this).data('value'), 10); // The star currently selected
+            var stars = $(this).parent().children('li.star');
+
+            for (i = 0; i < stars.length; i++) {
+                $(stars[i]).removeClass('selected');
+            }
+
+            for (i = 0; i < onStar; i++) {
+                $(stars[i]).addClass('selected');
+            }
+
+        });
+
+        $('.count').prop('disabled', true);
+        $(document).on('click','.plus',function(){
+            $('.count').val(parseInt($('.count').val()) + 1 );
+        });
+        $(document).on('click','.minus',function(){
+            $('.count').val(parseInt($('.count').val()) - 1 );
+            if ($('.count').val() == 0) {
+                $('.count').val(1);
+            }
+        });
+    });
+
+
+</script>
+
+
+</html>
