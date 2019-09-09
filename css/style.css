@@ -450,7 +450,7 @@ footer .panel-footer .social{
 
     header .ico {
         position: absolute;
-        right: 20%;
+        right: 15%;
         top: -125%;
     }
 
@@ -464,6 +464,10 @@ footer .panel-footer .social{
 
     header .ico .acc li{
         position: static;
+    }
+
+    header .logo{
+        padding: 0;
     }
 }
 
