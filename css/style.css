@@ -10,7 +10,7 @@ header .navbar-default{
 }
 
 header .navbar{
-    min-height: 20px;
+    min-height: 1px;
     margin: 3px 0;
 }
 
@@ -469,6 +469,10 @@ footer .panel-footer .social{
     header .logo{
         padding-right: 50px;
         padding-left: 0;
+    }
+
+    header .top-bar{
+        min-height: 20px;
     }
 }
 
