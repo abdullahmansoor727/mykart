@@ -466,7 +466,8 @@ footer .panel-footer .social{
         position: static;
     }
 
-    header .logo{
+    header .logo,
+    footer .logo{
         padding-right: 50px;
         padding-left: 0;
     }
