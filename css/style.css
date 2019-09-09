@@ -63,6 +63,7 @@ header form .btn-default{
 
 header form .form-group{
     position: relative;
+    padding: 0;
 }
 
 
