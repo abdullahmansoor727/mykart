@@ -5,9 +5,13 @@ It was created as the final course assignment.
 
 Links: 
 Homepage: https://abdullahmansoor727.github.io/mykart/
+
 Product page: https://abdullahmansoor727.github.io/mykart/apple-watch.html
+
 Cart: https://abdullahmansoor727.github.io/mykart/cart.html
+
 Checkout: https://abdullahmansoor727.github.io/mykart/checkout.html
+
 Payment: https://abdullahmansoor727.github.io/mykart/payment.html
 
 
