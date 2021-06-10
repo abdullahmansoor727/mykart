@@ -3,7 +3,8 @@
 A simple e-commerce website I developed while taking a course for front-end Web Development and Web Designing from <a href="https://www.theearningacademy.com/">The Earning Academy Pakistan</a>.
 It was created as the final course assignment.
 
-Links: 
+Links:
+
 Homepage: https://abdullahmansoor727.github.io/mykart/
 
 Product page: https://abdullahmansoor727.github.io/mykart/apple-watch.html
